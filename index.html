@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Girlfriend Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="header">
+      <img src="image.png" alt="Arya" class="profile-pic">
+      <div class="header-info">
+        <h2>Arya ❤️</h2>
+        <span id="status">Online</span>
+      </div>
+    </div>
+
+    <div class="chat-window" id="chatWindow"></div>
+
+    <div class="typing-indicator hidden" id="typingIndicator">
+      <span></span><span></span><span></span>
+    </div>
+
+    <div class="input-container">
+      <input type="text" id="userInput" placeholder="Type a message...">
+      <button id="sendBtn">Send</button>
+    </div>
+  </div>
+
+  <!-- Cohere API will be used in script.js -->
+  <script src="script.js"></script>
+</body>
+</html>
